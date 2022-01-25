@@ -3,8 +3,7 @@ public class TahapanGold extends Rekening {
     private static String tipeRekening = "Tahapan Gold";
     
     TahapanGold(double jumlahDeposit){
-        this.setSaldo(jumlahDeposit);
-        this.setBunga(0.05);   
+        this.setSaldo(jumlahDeposit); 
     }
     @Override
     public String toString(){
